@@ -6,21 +6,36 @@ body {
 header{
   text-align: center;
 }
-figure img{
+figure {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+figure img{
+  max-width: 100%;
 }
 figure figcaption{
   font-size: small;
+  text-align: center;
+}
+#featured-property{
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 #featured-property p{
   width: 800px;
   text-align: center;
   padding: 10px 10px;
-
+  margin: 10px auto;
+  justify-content: center;
+  box-sizing: border-box;
+  
+ 
 }
+
 nav a{ padding: 10px 10px;
   background-color: grey;
 
